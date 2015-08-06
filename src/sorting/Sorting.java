@@ -22,6 +22,11 @@ public class Sorting {
         InsertionSort insertion = new InsertionSort(numbers);
         insertion.sortAscending();
         insertion.sortDescending();
+        
+        // Quick Sorting Algorithm
+        QuickSort quick = new QuickSort(numbers);
+        quick.sortAscending();
+        quick.displayNumbers();
     }
     
     public static void print(int[] numbers, int i) {

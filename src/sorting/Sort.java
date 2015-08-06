@@ -35,6 +35,7 @@ public class Sort {
     }
     
     public void displayNumbers() {
+        System.out.println("");
         for (int i = 0; i < this.numbers.length; i++) {
             System.out.print(this.numbers[i] + ", ");
         }
